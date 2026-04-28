@@ -4,13 +4,11 @@ export default function Note() {
 	return (
 		<Card variant={"filled"} divideX="2px">
 			<CardHeader>
-				<Heading size={"md"}>Заметка</Heading>
+				<Heading size={"md"}>Title</Heading>
 			</CardHeader>
 			<CardBody>
-				<Text>Текст заметки</Text>
+				<Text>Description</Text>
 			</CardBody>
-			<CardFooter>
-				Дата создания
-			</CardFooter>
+			<CardFooter>Created at</CardFooter>
 		</Card>);
 }

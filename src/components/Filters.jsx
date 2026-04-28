@@ -3,10 +3,10 @@ import {Input, Select} from "@chakra-ui/react";
 export default function Filters(){
 	return (
 		<div>
-			<Input placeholder="Поиск"/>
+			<Input placeholder="Search"/>
 			<Select>
-				<option>Сначала новые</option>
-				<option>Сначала старые</option>
+				<option>Start with new</option>
+				<option>Start with old</option>
 			</Select>
 		</div>
 	);
